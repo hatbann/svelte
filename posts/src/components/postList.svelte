@@ -2,6 +2,7 @@
     .post-board{
         border: 1px solid gray;
         padding: 0 10px;
+        width: 100%;
     }
 </style>
 

@@ -8,7 +8,19 @@
 </script>
 
 
-<div>
+<style>
+    .container{
+        width:80%;
+    }
+
+h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 20px 0 10px 0;
+}
+</style>
+
+<div class="container">
     <h1>Post</h1>
     {#await posts}
     <p>Loading...</p>

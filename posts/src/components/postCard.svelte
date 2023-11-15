@@ -31,7 +31,7 @@
     export let index;
 
     const hanleClick = ()=>{
-        push(`/post/detail/${index+1}`)
+        push(`/post/${index+1}`)
     }
 </script>
 
